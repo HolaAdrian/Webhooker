@@ -1,0 +1,26 @@
+#PUT URL IN HERE E.G: https://discord.com/api/webhooks/1165219590033395813/a38peXMN9fsfYiBIc_pRYN6g51S9kQAaIIkCPrnT-NYgiVD6bMjyE42CbEISurwKmGZx
+webhook: "https://discord.com/api/webhooks/1165219590033395813/a38peXMN9fsfYiBIc_pRYN6g51S9kQAaIIkCPrnT-NYgiVD6bMjyE42CbEISurwKmGZx"
+
+##Configs:
+
+
+#Wether the plugin should send webhooks when players log in/quit
+loginwebhook:
+  do: false
+  #The title can contain discord message modifiers like __title__
+  titlejoin: "__Some Player Joined__"
+  titlequit: "__Some Player Left__"
+  #This is the text that comes after the player name e.g: <playername> joined the game!
+  messagejoin: "joined the game!"
+  messagequit: "left the game!"
+
+
+deathwebhook:
+  do: false
+  #The title can contain discord message modifiers like __title__
+  title: "__Some Player Died__"
+  #This is the text that comes after the player name e.g: <playername> just got killed!
+  message: "just got killed!"
+
+
+

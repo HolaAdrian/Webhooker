@@ -1,0 +1,4 @@
+name: Webhooker
+version: '${project.version}'
+main: de.adrian.webhooker.Webhooker
+author: adrian

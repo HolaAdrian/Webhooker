@@ -1,0 +1,4 @@
+name: Webhooker
+version: '1.0'
+main: de.adrian.webhooker.Webhooker
+author: adrian
